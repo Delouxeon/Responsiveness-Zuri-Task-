@@ -8,7 +8,7 @@
 
 /***BODY STYLING***/
 body{
-    background-image: url("./images/bg-intro-desktop.png");
+    background-image: url("./bg-intro-desktop.png");
     background-color: hsl(0, 100%, 74%);
     height: 100vh;
     font-size: 16px;
@@ -162,7 +162,7 @@ input:focus{
 
 @media (max-width:375px) {
     body{
-        background-image: url("./images/bg-intro-mobile.png");
+        background-image: url("./bg-intro-mobile.png");
     }
     .try-it-free{
         flex-direction: column;
