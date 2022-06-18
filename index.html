@@ -15,22 +15,18 @@
         </section>
         <section class="form-section">
             <p class="try-it-free"><span style="font-weight: 600;"> Try it free 7 days </span> then $20/mo. thereafter</p>
-            <form id="myForm" action="" onsubmit="return validateFornm()">
+            <form id="myForm" action="">
                 <div>
                     <input type="text" placeholder="First Name" id="fname" name="fname" autofocus pattern="[A-Za-z'-]+" title="Name can only contain letters, apostrophes and hyphens" required>
-                    <p id="firstName-error"><i>First Name cannot be hidden</i></p>
                 </div>
                 <div>
                     <input type="text" placeholder="Last Name" id="lname" name="lname" pattern="[A-Za-z'-]+" title="Name can only contain letters, apostrophes and hyphens" required>
-                    <p id="lastName-error"><i>Last Name cannot be empty</i></p>
                 </div>
                 <div>
                     <input type="email" placeholder="Email Address" id="email" name="email" required>
-                    <p id="email-error"><i>Looks like this is not an email</i></p>
                 </div>
                 <div>
                     <input type="password" placeholder="Password" id="password" name="password" minlength="8" title="password should contain a minimum of 8 characters">
-                    <p id="password-error"><i>Password cannot be empty</i></p>
                 </div>
                 <div>
                     <input type="submit" value="CLAIM YOUR FREE TRIAL" id="submit" >
@@ -39,6 +35,5 @@
             </form>
         </section>
     </main>
-    <!-- <script src="./script.js"></script> -->
 </body>
 </html>
