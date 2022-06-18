@@ -89,17 +89,6 @@ input{
 
 }
 
-
-div p{
-    color: hsl(0, 100%, 74%);
-    font-family: "Poppins";
-    font-weight: 600;
-    text-align: right;
-    font-size: 0.60rem;
-    padding-bottom: 0.95em;
-    visibility:hidden;
-}
-
 input:focus{
     outline: none;
     border: 2px solid hsl(246, 25%, 77%);
