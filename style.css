@@ -48,6 +48,7 @@ h1{
     display: grid;
     grid-template-rows: 1fr 8fr;
     row-gap: 1.5em;
+    align-self: stretch;
 }
 
 .try-it-free{
