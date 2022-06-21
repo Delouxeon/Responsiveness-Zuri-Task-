@@ -135,6 +135,7 @@ input:focus{
 @media (max-width:768px) {
     body{
         height: 100%;
+        width: 100vw;
         padding: 6em 2em 4em 2em ;
     }
 
