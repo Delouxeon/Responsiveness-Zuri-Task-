@@ -108,6 +108,7 @@ input:focus{
     justify-content: center;
     text-align: center;
     font-family: "Poppins";
+    padding-left: 0;
 }
 
 /* hover effect for submit button */
